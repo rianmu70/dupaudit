@@ -1,0 +1,20 @@
+{
+  "pearson_r_overlap_vs_inflation": 0.738,
+  "pearson_p": 7.132950632206208e-09,
+  "max_acc_inflation_pp": 20.18,
+  "datasets_log": {
+    "heart_kaggle_1025": "ok (123s elapsed)",
+    "heart_failure_918": "ok (262s elapsed)",
+    "stroke_kaggle": "ok (868s elapsed)",
+    "cleveland_uci": "ok (978s elapsed)",
+    "ckd_uci": "ok (1167s elapsed)",
+    "ilpd_uci": "ok (1381s elapsed)",
+    "early_diabetes_uci": "ok (1577s elapsed)",
+    "maternal_risk_uci": "ok (1786s elapsed)",
+    "lung_cancer_kaggle": "ok (1979s elapsed)"
+  },
+  "n_seeds": 10,
+  "folds": 5,
+  "xgboost_used": true,
+  "max_smote_acc_inflation_pp": 12.17
+}

@@ -1,0 +1,10 @@
+dataset,n_rows,n_features,positive_rate,exact_dup_rows_feat_label,exact_dup_rows_feat_only,unique_feature_vectors,conflicting_label_groups,exact_dup_pct,n_rows_after_dedup,positive_rate_after_dedup,near_dup_rows_eps0.1,near_dup_rows_eps0.25,dropped_id_columns,positive_label
+heart_kaggle_1025,1025,13,0.5132,723,723,302,0,70.54,302,0.543,723,724,,1
+heart_failure_918,918,11,0.5534,0,0,918,0,0.0,918,0.5534,0,5,,1
+stroke_kaggle,5110,10,0.0487,0,0,5110,0,0.0,5110,0.0487,191,1325,id,1
+cleveland_uci,303,13,0.4587,0,0,303,0,0.0,303,0.4587,0,1,,>0
+ckd_uci,400,24,0.625,0,0,400,0,0.0,400,0.625,0,0,,ckd
+ilpd_uci,583,10,0.7136,13,13,570,0,2.23,570,0.7123,13,25,,1
+early_diabetes_uci,520,16,0.6154,269,269,251,0,51.73,251,0.6892,278,283,,Positive
+maternal_risk_uci,1014,6,0.2682,587,598,416,11,57.89,427,0.2623,709,773,,high risk
+lung_cancer_kaggle,309,15,0.8738,33,34,275,1,10.68,276,0.8623,34,76,,YES
