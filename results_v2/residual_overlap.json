@@ -1,0 +1,56 @@
+{
+ "heart_kaggle_1025": {
+  "rows_after_dedup": 302,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "heart_failure_918": {
+  "rows_after_dedup": 918,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "stroke_kaggle": {
+  "rows_after_dedup": 5110,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "cleveland_uci": {
+  "rows_after_dedup": 303,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "ckd_uci": {
+  "rows_after_dedup": 400,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "ilpd_uci": {
+  "rows_after_dedup": 570,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "early_diabetes_uci": {
+  "rows_after_dedup": 251,
+  "feature_vectors_still_repeated": 0,
+  "rows_in_repeated_groups": 0,
+  "residual_pct": 0.0
+ },
+ "maternal_risk_uci": {
+  "rows_after_dedup": 427,
+  "feature_vectors_still_repeated": 11,
+  "rows_in_repeated_groups": 22,
+  "residual_pct": 5.15
+ },
+ "lung_cancer_kaggle": {
+  "rows_after_dedup": 276,
+  "feature_vectors_still_repeated": 1,
+  "rows_in_repeated_groups": 2,
+  "residual_pct": 0.72
+ }
+}

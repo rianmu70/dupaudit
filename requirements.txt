@@ -3,6 +3,7 @@ pandas
 scipy
 scikit-learn
 matplotlib
+statsmodels
 xgboost
 imbalanced-learn
 ucimlrepo

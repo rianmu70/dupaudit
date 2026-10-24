@@ -1,0 +1,10 @@
+dataset,P0_naive,P1_group,P2_dedup,P2b_dedup_feat
+ckd_uci,0.0,0.0,0.0,0.0
+cleveland_uci,0.0,0.0,0.0,0.0
+early_diabetes_uci,0.68471,0.0,0.0,0.0
+heart_failure_918,0.0,0.0,0.0,0.0
+heart_kaggle_1025,0.97634,0.0,0.0,0.0
+ilpd_uci,0.03447,0.0,0.0,0.0
+lung_cancer_kaggle,0.18253,0.0,0.00506,0.0
+maternal_risk_uci,0.79763,0.0,0.03816,0.0
+stroke_kaggle,0.0,0.0,0.0,0.0

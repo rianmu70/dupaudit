@@ -1,0 +1,10 @@
+excluded,LR,XGB,ratio
+ckd_uci,0.0215,0.1442,6.7
+cleveland_uci,0.0202,0.1436,7.1
+early_diabetes_uci,0.0134,0.1549,11.54
+heart_failure_918,0.0219,0.1441,6.59
+heart_kaggle_1025,0.0233,0.0779,3.34
+ilpd_uci,0.0219,0.1464,6.68
+lung_cancer_kaggle,0.0213,0.1413,6.63
+maternal_risk_uci,0.03,0.171,5.69
+stroke_kaggle,0.0218,0.1439,6.61

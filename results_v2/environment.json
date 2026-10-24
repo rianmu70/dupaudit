@@ -1,0 +1,24 @@
+{
+ "python": "3.13.15",
+ "numpy": "2.1.3",
+ "pandas": "2.3.3",
+ "scikit_learn": "1.6.1",
+ "scipy": "1.16.3",
+ "imbalanced_learn": "0.14.2",
+ "xgboost": "3.4.1",
+ "n_seeds": 20,
+ "ladder_seeds": 10,
+ "folds": 5,
+ "datasets_log": {
+  "heart_kaggle_1025": "ok (446s)",
+  "heart_failure_918": "ok (965s)",
+  "stroke_kaggle": "ok (2286s)",
+  "cleveland_uci": "ok (2686s)",
+  "ckd_uci": "ok (3252s)",
+  "ilpd_uci": "ok (3854s)",
+  "early_diabetes_uci": "ok (4430s)",
+  "maternal_risk_uci": "ok (5017s)",
+  "lung_cancer_kaggle": "ok (5573s)"
+ },
+ "elapsed_seconds": 5574
+}

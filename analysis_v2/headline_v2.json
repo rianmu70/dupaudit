@@ -1,0 +1,166 @@
+{
+ "n_seeds": 20,
+ "n_fits": 18000,
+ "sensitivity_max_abs_gap_p1_vs_p2b": 6.114,
+ "sensitivity_corr_p1_vs_p2b": 0.9663,
+ "sensitivity_corr_p1_vs_weighted": 1.0,
+ "max_overlap_P1": 0.0,
+ "max_overlap_P2": 0.03816,
+ "max_overlap_P2b": 0.0,
+ "mixedlm_slope": {
+  "beta": 0.087,
+  "se": 0.0185,
+  "p": 2.4483068188363594e-06
+ },
+ "pooled_pearson": {
+  "r": 0.742,
+  "p": 5.563448606854363e-09
+ },
+ "dataset_level_pearson": {
+  "r": 0.872,
+  "p": 0.002199651428098534,
+  "n": 9
+ },
+ "dataset_level_spearman": {
+  "rho": 0.923,
+  "p": 0.0003933383162385643,
+  "n": 9
+ },
+ "cluster_robust_slope": {
+  "beta": 0.0882,
+  "se": 0.027,
+  "p": 0.001094837434651479,
+  "ci": [
+   0.0352,
+   0.1411
+  ]
+ },
+ "n_sig_holm": 14,
+ "n_tests": 45,
+ "min_attainable_wilcoxon_p": 1.9073486328125e-06,
+ "holm_threshold": 0.0011111111111111111,
+ "n_ci_above_zero": 18,
+ "interaction_ov_x_cap": {
+  "beta": 0.0308,
+  "se": 0.011,
+  "p": 0.005317366723756754,
+  "ci": [
+   0.0091,
+   0.0524
+  ]
+ },
+ "per_model_slopes": [
+  {
+   "model": "LR",
+   "slope": 0.0215,
+   "se": 0.0093,
+   "ci_lo": 0.0033,
+   "ci_hi": 0.0398,
+   "p": 0.020744811858044394
+  },
+  {
+   "model": "kNN",
+   "slope": 0.0653,
+   "se": 0.0182,
+   "ci_lo": 0.0296,
+   "ci_hi": 0.1011,
+   "p": 0.0003417619896847817
+  },
+  {
+   "model": "SVM",
+   "slope": 0.0808,
+   "se": 0.0316,
+   "ci_lo": 0.0187,
+   "ci_hi": 0.1428,
+   "p": 0.010707331036110648
+  },
+  {
+   "model": "RF",
+   "slope": 0.1305,
+   "se": 0.0409,
+   "ci_lo": 0.0503,
+   "ci_hi": 0.2108,
+   "p": 0.0014315573173646215
+  },
+  {
+   "model": "XGB",
+   "slope": 0.1428,
+   "se": 0.0437,
+   "ci_lo": 0.0571,
+   "ci_hi": 0.2284,
+   "p": 0.0010876155974715303
+  }
+ ],
+ "lodo_ratio_range": [
+  3.34,
+  11.54
+ ],
+ "within_family_capacity": [
+  {
+   "family": "LR",
+   "interaction_beta": 0.0083,
+   "p": 0.006846625175316868,
+   "mean_infl_by_rank": {
+    "1": 0.33,
+    "2": 0.65,
+    "3": 0.633
+   }
+  },
+  {
+   "family": "RF",
+   "interaction_beta": 0.0535,
+   "p": 0.0016208529669345176,
+   "mean_infl_by_rank": {
+    "1": 0.613,
+    "2": 2.506,
+    "3": 3.33
+   }
+  },
+  {
+   "family": "XGB",
+   "interaction_beta": 0.0211,
+   "p": 0.0032990457653728155,
+   "mean_infl_by_rank": {
+    "1": 2.72,
+    "2": 3.827,
+    "3": 3.763
+   }
+  },
+  {
+   "family": "kNN",
+   "interaction_beta": 0.0728,
+   "p": 0.004507599609711418,
+   "mean_infl_by_rank": {
+    "1": 0.77,
+    "2": 1.824,
+    "3": 4.235
+   }
+  }
+ ],
+ "smote_decomposition": {
+  "acc": {
+   "leakage_mean": 1.08,
+   "leakage_max": 9.45,
+   "composition_mean": 3.34,
+   "composition_max": 9.54
+  },
+  "auc": {
+   "leakage_mean": 4.32,
+   "leakage_max": 33.57,
+   "composition_mean": 2.44,
+   "composition_max": 13.99
+  },
+  "bacc": {
+   "leakage_mean": 5.48,
+   "leakage_max": 33.32,
+   "composition_mean": 4.19,
+   "composition_max": 31.45
+  },
+  "f1": {
+   "leakage_mean": 3.61,
+   "leakage_max": 41.8,
+   "composition_mean": 11.02,
+   "composition_max": 68.03
+  }
+ }
+}

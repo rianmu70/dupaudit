@@ -1,0 +1,13 @@
+family,config,capacity_rank,infl
+LR,LR_C0.01,1,0.33
+LR,LR_C1,2,0.65
+LR,LR_C100,3,0.633
+RF,RF_d2,1,0.613
+RF,RF_d6,2,2.506
+RF,RF_dNone,3,3.33
+XGB,XGB_d2,1,2.72
+XGB,XGB_d4,2,3.827
+XGB,XGB_d8,3,3.763
+kNN,kNN_k1,3,4.235
+kNN,kNN_k25,1,0.77
+kNN,kNN_k5,2,1.824
